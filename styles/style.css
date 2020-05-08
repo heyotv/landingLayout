@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "HelveticaNeue";
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 91px;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 207px;
+}
+
+.logo h1 {
+  color: #34c759;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.8px;
+  margin-top: 40px;
+}
+
+.navigation {
+  margin-top: 35px;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 303px;
+}
+
+.navigation-item > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.home {
+  height: 1080px;
+  background: linear-gradient(to bottom, rgba(26, 26, 26, 0.0001) 0%, rgba(26, 26, 26, 1) 100%), url(../assets/images/placeholder.jpg);
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.home-overlay {
+  background: rgba(33, 33, 33, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 171px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slogan {
+  font-size: 72px;
+  letter-spacing: 7.2px;
+  max-width: 863px;
+}
+
+.slogan span {
+  display: block;
+  font-weight: 300;
+}
+
+.home p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  opacity: 0.7;
+  max-width: 595px;
+}
+
+.order {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 3.6px;
+  color: #1a1a1a;
+  background: #34c759;
+  border: none;
+  outline: none;
+  padding: 25px 49px;
+  border-radius: 43px;
+}
