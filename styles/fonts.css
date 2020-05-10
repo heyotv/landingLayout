@@ -1,6 +1,8 @@
 @font-face {
   font-family: "HelveticaNeue";
   src: url(../assets/fonts/HelveticaNeue.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -21,5 +23,12 @@
   font-family: "HelveticaNeue";
   src: url(../assets/fonts/HelveticaNeue\ Medium.ttf) format("truetype");
   font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(../assets/fonts/HelveticaNeue\ BlackCond.ttf) format("truetype");
+  font-weight: 900;
   font-style: normal;
 }

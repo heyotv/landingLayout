@@ -5,6 +5,7 @@
 
 body {
   font-family: "HelveticaNeue";
+  color: white;
 }
 
 .wrapper {
@@ -65,7 +66,6 @@ body {
   background-size: cover;
   position: relative;
   text-align: center;
-  color: white;
 }
 
 .home-overlay {
@@ -148,10 +148,124 @@ body {
 .about {
   position: relative;
   bottom: 240px;
-  height: 500px;
+  margin-bottom: -240px;
 }
 
-.cl {
-  background: green;
-  height: 500px;
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  background: #252525;
+  border-radius: 6px;
+}
+
+.section-name {
+  font-size: 100px;
+  line-height: 150px;
+  letter-spacing: 20px;
+  font-weight: 900;
+  color: #303030;
+  text-transform: uppercase;
+}
+
+.section-slogan {
+  margin-top: -100px;
+  font-size: 30px;
+  line-height: 60px;
+  letter-spacing: 6px;
+  color: #d9d9d9;
+}
+
+.about-content p {
+  max-width: 670px;
+  margin-top: 31px;
+  margin-bottom: 90px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  color: #a6a6a6;
+  font-weight: normal;
+}
+
+.about-slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.slider {
+  width: 734px;
+}
+
+.slider-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.work-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-content .section-slogan {
+  margin-top: -120px;
+  margin-right: 20px;
+  font-size: 36px;
+  line-height: 90px;
+  letter-spacing: 7.2px;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  /* margin-right: 5px; */
+  background: #34c759;
+}
+
+.work-services {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  padding: 24px 24px 60px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  background-color: #252525;
+}
+
+.service-name {
+  font-size: 22px;
+  letter-spacing: -0.28px;
+  font-weight: 500;
+}
+
+.service-line {
+  width: 56px;
+  height: 2px;
+  margin-top: 15px;
+  background: #34c759;
+}
+
+.service p {
+  margin-top: 24px;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.16px;
+  color: rgba(255, 255, 255, 0.5);
 }
